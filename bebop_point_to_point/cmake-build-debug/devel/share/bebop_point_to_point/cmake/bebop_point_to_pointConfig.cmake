@@ -67,8 +67,8 @@ set(bebop_point_to_point_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(bebop_point_to_point_SOURCE_PREFIX /home/jungsu/catkin_ws/src/bebop_point_to_point)
-  set(bebop_point_to_point_DEVEL_PREFIX /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/devel)
+  set(bebop_point_to_point_SOURCE_PREFIX /home/jungsu/github_data/ros_class/bebop_point_to_point)
+  set(bebop_point_to_point_DEVEL_PREFIX /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/devel)
   set(bebop_point_to_point_INSTALL_PREFIX "")
   set(bebop_point_to_point_PREFIX ${bebop_point_to_point_DEVEL_PREFIX})
 else()
@@ -110,7 +110,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'bebop_point_to_point' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'bebop_point_to_point' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/jungsu/catkin_ws/src/bebop_point_to_point/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'bebop_point_to_point' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/jungsu/github_data/ros_class/bebop_point_to_point/${idir}'.  ${_report}")
     endif()
     _list_append_unique(bebop_point_to_point_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/devel/lib;/home/jungsu/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/devel/lib;/home/jungsu/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

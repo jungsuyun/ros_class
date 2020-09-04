@@ -68,10 +68,10 @@ RM = /home/jungsu/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jungsu/catkin_ws/src/bebop_point_to_point
+CMAKE_SOURCE_DIR = /home/jungsu/github_data/ros_class/bebop_point_to_point
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -157,9 +157,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/CMakeFiles /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -669,33 +669,6 @@ src/Altitude.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.s
 .PHONY : src/Altitude.cpp.s
 
-src/Bearing.o: src/Bearing.cpp.o
-
-.PHONY : src/Bearing.o
-
-# target to build an object file
-src/Bearing.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.o
-.PHONY : src/Bearing.cpp.o
-
-src/Bearing.i: src/Bearing.cpp.i
-
-.PHONY : src/Bearing.i
-
-# target to preprocess a source file
-src/Bearing.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.i
-.PHONY : src/Bearing.cpp.i
-
-src/Bearing.s: src/Bearing.cpp.s
-
-.PHONY : src/Bearing.s
-
-# target to generate assembly for a file
-src/Bearing.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.s
-.PHONY : src/Bearing.cpp.s
-
 src/bebop_point_to_point_node.o: src/bebop_point_to_point_node.cpp.o
 
 .PHONY : src/bebop_point_to_point_node.o
@@ -774,9 +747,6 @@ help:
 	@echo "... src/Altitude.o"
 	@echo "... src/Altitude.i"
 	@echo "... src/Altitude.s"
-	@echo "... src/Bearing.o"
-	@echo "... src/Bearing.i"
-	@echo "... src/Bearing.s"
 	@echo "... src/bebop_point_to_point_node.o"
 	@echo "... src/bebop_point_to_point_node.i"
 	@echo "... src/bebop_point_to_point_node.s"

@@ -63,10 +63,10 @@ RM = /home/jungsu/clion-2020.2.1/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jungsu/catkin_ws/src/bebop_point_to_point
+CMAKE_SOURCE_DIR = /home/jungsu/github_data/ros_class/bebop_point_to_point
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug
 
 # Utility rule file for bebop_msgs_generate_messages_cpp.
 
@@ -87,6 +87,6 @@ CMakeFiles/bebop_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/bebop_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/bebop_msgs_generate_messages_cpp.dir/depend:
-	cd /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jungsu/catkin_ws/src/bebop_point_to_point /home/jungsu/catkin_ws/src/bebop_point_to_point /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles/bebop_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jungsu/github_data/ros_class/bebop_point_to_point /home/jungsu/github_data/ros_class/bebop_point_to_point /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/CMakeFiles/bebop_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bebop_msgs_generate_messages_cpp.dir/depend
 

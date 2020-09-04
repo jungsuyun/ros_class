@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/gtest/gtest/cmake_install.cmake")
+  include("/home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/gtest/gtest/cmake_install.cmake")
 
 endif()
 

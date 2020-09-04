@@ -136,7 +136,9 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(${PROJECT_NAME}_node src/bebop_point_to_point_node.cpp
                                     src/Altitude.h
-                                    src/Altitude.cpp)
+                                    src/Altitude.cpp
+                                    src/Bearing.h
+                                    src/Bearing.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

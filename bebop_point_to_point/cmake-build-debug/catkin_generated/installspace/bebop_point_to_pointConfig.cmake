@@ -67,8 +67,8 @@ set(bebop_point_to_point_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(bebop_point_to_point_SOURCE_PREFIX /home/jungsu/catkin_ws/src/bebop_point_to_point)
-  set(bebop_point_to_point_DEVEL_PREFIX /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/devel)
+  set(bebop_point_to_point_SOURCE_PREFIX /home/jungsu/github_data/ros_class/bebop_point_to_point)
+  set(bebop_point_to_point_DEVEL_PREFIX /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/devel)
   set(bebop_point_to_point_INSTALL_PREFIX "")
   set(bebop_point_to_point_PREFIX ${bebop_point_to_point_DEVEL_PREFIX})
 else()

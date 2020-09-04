@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/devel/setup.sh
+    local-name: /home/jungsu/github_data/ros_class/bebop_point_to_point/cmake-build-debug/devel/setup.sh

@@ -90,29 +90,44 @@ CMakeFiles/bebop_point_to_point_node.dir/src/bebop_point_to_point_node.cpp.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bebop_point_to_point_node.dir/src/bebop_point_to_point_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jungsu/catkin_ws/src/bebop_point_to_point/src/bebop_point_to_point_node.cpp -o CMakeFiles/bebop_point_to_point_node.dir/src/bebop_point_to_point_node.cpp.s
 
-CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.o: CMakeFiles/bebop_point_to_point_node.dir/flags.make
-CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.o: ../src/BebopSub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.o -c /home/jungsu/catkin_ws/src/bebop_point_to_point/src/BebopSub.cpp
+CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.o: CMakeFiles/bebop_point_to_point_node.dir/flags.make
+CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.o: ../src/Altitude.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.o -c /home/jungsu/catkin_ws/src/bebop_point_to_point/src/Altitude.cpp
 
-CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jungsu/catkin_ws/src/bebop_point_to_point/src/BebopSub.cpp > CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.i
+CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jungsu/catkin_ws/src/bebop_point_to_point/src/Altitude.cpp > CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.i
 
-CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jungsu/catkin_ws/src/bebop_point_to_point/src/BebopSub.cpp -o CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.s
+CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jungsu/catkin_ws/src/bebop_point_to_point/src/Altitude.cpp -o CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.s
+
+CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.o: CMakeFiles/bebop_point_to_point_node.dir/flags.make
+CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.o: ../src/Bearing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.o -c /home/jungsu/catkin_ws/src/bebop_point_to_point/src/Bearing.cpp
+
+CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jungsu/catkin_ws/src/bebop_point_to_point/src/Bearing.cpp > CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.i
+
+CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jungsu/catkin_ws/src/bebop_point_to_point/src/Bearing.cpp -o CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.s
 
 # Object files for target bebop_point_to_point_node
 bebop_point_to_point_node_OBJECTS = \
 "CMakeFiles/bebop_point_to_point_node.dir/src/bebop_point_to_point_node.cpp.o" \
-"CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.o"
+"CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.o" \
+"CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.o"
 
 # External object files for target bebop_point_to_point_node
 bebop_point_to_point_node_EXTERNAL_OBJECTS =
 
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: CMakeFiles/bebop_point_to_point_node.dir/src/bebop_point_to_point_node.cpp.o
-devel/lib/bebop_point_to_point/bebop_point_to_point_node: CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.o
+devel/lib/bebop_point_to_point/bebop_point_to_point_node: CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.o
+devel/lib/bebop_point_to_point/bebop_point_to_point_node: CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.o
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: CMakeFiles/bebop_point_to_point_node.dir/build.make
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /opt/ros/kinetic/lib/libroscpp.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -122,8 +137,8 @@ devel/lib/bebop_point_to_point/bebop_point_to_point_node: /opt/ros/kinetic/lib/l
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-devel/lib/bebop_point_to_point/bebop_point_to_point_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+devel/lib/bebop_point_to_point/bebop_point_to_point_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /opt/ros/kinetic/lib/librostime.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /opt/ros/kinetic/lib/libcpp_common.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -134,7 +149,7 @@ devel/lib/bebop_point_to_point/bebop_point_to_point_node: /usr/lib/x86_64-linux-
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 devel/lib/bebop_point_to_point/bebop_point_to_point_node: CMakeFiles/bebop_point_to_point_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable devel/lib/bebop_point_to_point/bebop_point_to_point_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jungsu/catkin_ws/src/bebop_point_to_point/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable devel/lib/bebop_point_to_point/bebop_point_to_point_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bebop_point_to_point_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

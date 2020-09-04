@@ -662,10 +662,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jungsu/catkin_ws/src/bebop_point_to_point/src/BebopSub.cpp">
+		<Unit filename="/home/jungsu/catkin_ws/src/bebop_point_to_point/src/Altitude.cpp">
 			<Option target="bebop_point_to_point_node"/>
 		</Unit>
-		<Unit filename="/home/jungsu/catkin_ws/src/bebop_point_to_point/src/BebopSub.h">
+		<Unit filename="/home/jungsu/catkin_ws/src/bebop_point_to_point/src/Altitude.h">
+			<Option target="bebop_point_to_point_node"/>
+		</Unit>
+		<Unit filename="/home/jungsu/catkin_ws/src/bebop_point_to_point/src/Bearing.cpp">
+			<Option target="bebop_point_to_point_node"/>
+		</Unit>
+		<Unit filename="/home/jungsu/catkin_ws/src/bebop_point_to_point/src/Bearing.h">
 			<Option target="bebop_point_to_point_node"/>
 		</Unit>
 		<Unit filename="/home/jungsu/catkin_ws/src/bebop_point_to_point/src/bebop_point_to_point_node.cpp">

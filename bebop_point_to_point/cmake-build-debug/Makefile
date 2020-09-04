@@ -642,32 +642,59 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-src/BebopSub.o: src/BebopSub.cpp.o
+src/Altitude.o: src/Altitude.cpp.o
 
-.PHONY : src/BebopSub.o
+.PHONY : src/Altitude.o
 
 # target to build an object file
-src/BebopSub.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.o
-.PHONY : src/BebopSub.cpp.o
+src/Altitude.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.o
+.PHONY : src/Altitude.cpp.o
 
-src/BebopSub.i: src/BebopSub.cpp.i
+src/Altitude.i: src/Altitude.cpp.i
 
-.PHONY : src/BebopSub.i
+.PHONY : src/Altitude.i
 
 # target to preprocess a source file
-src/BebopSub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.i
-.PHONY : src/BebopSub.cpp.i
+src/Altitude.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.i
+.PHONY : src/Altitude.cpp.i
 
-src/BebopSub.s: src/BebopSub.cpp.s
+src/Altitude.s: src/Altitude.cpp.s
 
-.PHONY : src/BebopSub.s
+.PHONY : src/Altitude.s
 
 # target to generate assembly for a file
-src/BebopSub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/BebopSub.cpp.s
-.PHONY : src/BebopSub.cpp.s
+src/Altitude.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Altitude.cpp.s
+.PHONY : src/Altitude.cpp.s
+
+src/Bearing.o: src/Bearing.cpp.o
+
+.PHONY : src/Bearing.o
+
+# target to build an object file
+src/Bearing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.o
+.PHONY : src/Bearing.cpp.o
+
+src/Bearing.i: src/Bearing.cpp.i
+
+.PHONY : src/Bearing.i
+
+# target to preprocess a source file
+src/Bearing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.i
+.PHONY : src/Bearing.cpp.i
+
+src/Bearing.s: src/Bearing.cpp.s
+
+.PHONY : src/Bearing.s
+
+# target to generate assembly for a file
+src/Bearing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bebop_point_to_point_node.dir/build.make CMakeFiles/bebop_point_to_point_node.dir/src/Bearing.cpp.s
+.PHONY : src/Bearing.cpp.s
 
 src/bebop_point_to_point_node.o: src/bebop_point_to_point_node.cpp.o
 
@@ -744,9 +771,12 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... src/BebopSub.o"
-	@echo "... src/BebopSub.i"
-	@echo "... src/BebopSub.s"
+	@echo "... src/Altitude.o"
+	@echo "... src/Altitude.i"
+	@echo "... src/Altitude.s"
+	@echo "... src/Bearing.o"
+	@echo "... src/Bearing.i"
+	@echo "... src/Bearing.s"
 	@echo "... src/bebop_point_to_point_node.o"
 	@echo "... src/bebop_point_to_point_node.i"
 	@echo "... src/bebop_point_to_point_node.s"

@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   bebop_msgs
   geometry_msgs
   roscpp
+  std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -70,7 +71,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   bebop_msgs#   geometry_msgs
+#   bebop_msgs#   geometry_msgs#   std_msgs
 # )
 
 ################################################
@@ -105,7 +106,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES bebop_point_to_point
-#  CATKIN_DEPENDS bebop_msgs geometry_msgs roscpp
+#  CATKIN_DEPENDS bebop_msgs geometry_msgs roscpp std_msgs
 #  DEPENDS system_lib
 )
 
@@ -134,8 +135,8 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(${PROJECT_NAME}_node src/bebop_point_to_point_node.cpp
-                                    src/BebopSub.h
-                                    src/BebopSub.cpp)
+                                    src/Altitude.h
+                                    src/Altitude.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the

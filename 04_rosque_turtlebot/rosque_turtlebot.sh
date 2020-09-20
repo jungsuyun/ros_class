@@ -8,10 +8,12 @@ echo "PRESS [ENTER] TO CONTINUE THE INSTALLATION"
 echo "IF YOU WANT TO CANCEL, PRESS [CTRL] + [C]"
 read
 
+echo "[Make Directory and download rosserial_python package]"
 mkdir -p $HOME/ros_catkin_ws
 cd $HOME/ros_catkin_ws
 rosinstall_generator rosserial_python --rosdistro kinetic --deps --wet-only --tar > kinetic-ros_comm-wet.rosinstall
 wstool init src kinetic-ros_comm-wet.rosinstall
+echo "[Install rosserial_python]"
 sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/kinetic
 
 echo "[Install Turtlebot3 Package on your Raspberry Pi 4]"
@@ -28,6 +30,7 @@ echo "[Root Permission for your OPENCR]"
 rosrun turtlebot3_bringup create_udev_rules
 
 echo "[OpenCR Firmware Upload for Turtlebot3]"
+cd $HOME/
 export OPENCR_PORT=/dev/ttyACM0
 export OPENCR_MODEL=burger
 wget https://github.com/ROBOTIS-GIT/OpenCR-Binaries/raw/master/turtlebot3/ROS1/latest/opencr_update.tar.bz2 && tar -xvf opencr_update.tar.bz2 && cd ./opencr_update && ./update.sh $OPENCR_PORT $OPENCR_MODEL.opencr && cd ..
